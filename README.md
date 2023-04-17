@@ -7,7 +7,7 @@ Have all checks run:
 
 ```yaml
 repos:
-   - repo: https://github.com/mto79/pre-commit
+   - repo: https://github.com/mto79/pre-commit-hooks.git
      rev: v1.0.0
      hooks:
        - id: ansible_role_find_empty_files
@@ -22,7 +22,7 @@ This hook can find empty `defaults/main.yml`, `handlers/main.yml` and `vars/main
 
 ```yaml
 repos:
-  - repo: https://github.com/mto79/pre-commit.git
+  - repo: https://github.com/mto79/pre-commit-hooks.git
     rev: v1.0.0
     hooks:
       - id: ansible_role_find_empty_files
@@ -39,7 +39,7 @@ This hook can find empty directories.
 
 ```yaml
 repos:
-  - repo: https://github.com/mto79/pre-commit.git
+  - repo: https://github.com/mto79/pre-commit-hooks.git
     rev: v1.0.0
     hooks:
       - id: ansible_role_find_empty_directory
